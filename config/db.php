@@ -10,11 +10,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
     exit();
 }
 
-$host = "sql202.infinityfree.com";
-$port = "3306";
-$db_name = "if0_42295694_face_track";
-$username = "if0_42295694";
-$password = "gDKcXjiUSnKSKLu";
+$host = "gateway01.ap-southeast-1.prod.alicloud.tidbcloud.com";
+$port = "4000";
+$db_name = "sys";
+$username = "4KXXUZPfUzEziz4.root";
+$password = "iMDUArHraEbfqqP6";
 
 try {
     $conn = new PDO(
