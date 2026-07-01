@@ -10,11 +10,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
     exit();
 }
 
-$host = "127.0.0.1";
-$port = "3307";
-$db_name = "facetrack_ai";
-$username = "root";
-$password = "";
+$host = "sql202.infinityfree.com";
+$port = "3306";
+$db_name = "if0_42295694_face_track";
+$username = "if0_42295694";
+$password = "gDKcXjiUSnKSKLu";
 
 try {
     $conn = new PDO(
